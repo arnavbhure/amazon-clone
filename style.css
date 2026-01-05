@@ -48,15 +48,17 @@
     justify-content: center;
 }
 .logo img{
+    
+    height: 50px;
     width: 125px;
-    object-fit: contain;
+    object-fit:cover;
     
 }
 
 .search-box {
     display: flex;
     align-items: center;
-    width: 650px;
+    width: 700px;
     height: 50px;
     justify-content: space-evenly;
 }
@@ -79,7 +81,7 @@
     width: 100%;
     height: 35px;
     font-size: 14px;
-    padding: 1px;
+    padding: 2.5px;
     border: none;
 }
 
@@ -158,7 +160,7 @@
 }
 
 .cart{
-    width: 59px;
+    width: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -167,4 +169,257 @@
 
 .cart-icon i{
     font-size: 1.5rem;
+}
+
+.cart-text{
+    width: 25px;
+    padding-right: 10px;
+}
+
+.cart-div{
+    font-weight: 550;
+    font-size: 14px;
+}
+
+.below-nav{
+    height: 40px;
+    padding: 1px;
+    color : white;
+    background-color: #232F3E;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.all-below{
+    width: 4rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.bars-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    padding-left: 0.80rem;
+}
+
+.all-text{
+    font-size: 0.95rem;
+    font-weight: 790;
+    padding-left: 0.15rem;
+
+}
+
+.mx-play{
+    width: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+    cursor: pointer;
+
+}
+
+.mx-text{
+    font-size: 14px;
+    font-weight:550;
+}
+
+.sell{
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+    cursor: pointer;
+}
+
+.sell-text{
+    font-size: 14px;
+    font-weight:550;
+}
+
+.bestsellers{
+    width: 5.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+    cursor: pointer;
+}
+
+.best-text{
+    font-size: 14px;
+    font-weight:550;
+}
+
+.mob{
+    width: 4.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+    cursor: pointer;
+}
+
+.mob-text{
+    font-size: 14px;
+    font-weight:550;
+}
+
+.today{
+    width: 5.7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+    cursor: pointer;
+}
+
+.today-text{
+    font-size: 14px;
+    font-weight:550;
+}
+
+.customer{
+    width: 8.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+    cursor: pointer;
+}
+
+.cust-text{
+    font-size: 14px;
+    font-weight:550;
+}
+
+.prime{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor : pointer;
+    padding: 1px;
+    width: 4rem;
+}
+
+.prime-text{
+    font-size: 14px;
+    font-weight: 550;
+}
+
+.new-release{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor : pointer;
+    padding: 2px;
+    width: 6.4em;
+}
+
+.new-release-text{
+    font-size: 14px;
+    font-weight: 550;
+}
+
+.amazon-pay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor : pointer;
+    padding: 2px;
+    width: 6.5em;
+}
+
+.amazon-pay-text{
+    font-size: 14px;
+    font-weight: 550;
+}
+
+.fashion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor : pointer;
+    padding: 2px;
+    width: 5.4em;
+}
+
+.fashion-text{
+     font-size: 14px;
+    font-weight: 550;
+}
+
+.electronics{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor : pointer;
+    padding: 2px;
+    width: 5.5em;
+}
+
+.electronics-text{
+    font-size: 14px;
+    font-weight: 550;
+}
+
+.homekit{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor : pointer;
+    padding: 2px;
+    width: 7.5em;
+}
+
+.homekit-text{
+    font-size: 14px;
+    font-weight: 550;
+}
+
+.books{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor : pointer;
+    padding: 2px;
+    width: 3.5em;
+}
+
+.book-text{
+    font-size: 14px;
+    font-weight: 550;
+}
+
+.computer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor : pointer;
+    padding: 2px;
+    width: 5.3em;
+}
+
+.computer-text{
+    font-size: 14px;
+    font-weight: 550;
+}
+
+.gift{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor : pointer;
+    padding: 2px;
+    width: 5.3em;
+}
+
+.gift-text{
+    font-size: 14px;
+    font-weight: 550;
 }
