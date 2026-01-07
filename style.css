@@ -440,13 +440,11 @@
 
 .box{
     background-color: #fbf1e770;
-    border: 1px solid black;
     height: 475px;
     width: 23%;
     box-shadow: 0 4px 10px rgba(0,0,0,0.3);
     position: absolute;
     background-color: white;
-    
 }
 
 .box1{
@@ -460,7 +458,7 @@
 }
 
 .box3{
-   top: 81%;
+    top: 81%;
     left : 770px;
 }
 
@@ -469,8 +467,30 @@
     left : 1140px;
 }
 
+.box5{
+    top: 150%;
+    left: 30px;
+}
+
+.box6{
+    top: 150%;
+    left : 400px;
+}
+
+.box7{
+    top: 150%;
+    left : 770px;
+}
+
+.box8{
+    top: 150%;
+    left : 1140px;
+}
+
 
 .box p{
+    padding-left: 5px;
+    padding-right: 5px;
     display: flex;
     justify-content: center;
     margin-top: 10px;
@@ -488,14 +508,210 @@
 
 .offers img{
     background-size: cover;
-    height: 35%;
-    width: 46%;
+    height: 102px;
+    width: 163px;
     background-size: contain;
-    padding: 3px;
+    padding : 3px;
 }
 
 .color-for-hero{
-    height: 400px;
+    height: 930px;
     background-color: rgba(208, 216, 216, 0.659);
 
+}
+.best-seller{
+    height: 300px;
+    background-color:rgba(208, 216, 216, 0.659);;
+    padding:10px 15px 10px 15px;
+}
+.best-seller-box{
+    box-shadow: 0 5px 10px rgba(0,0,0,0.3)  ;
+    background-color: white;
+}
+.best-seller-images-text{
+    font-weight: bold;
+    font-size: 24px;
+    padding: 5px 0px 20px 25px;
+}
+
+.best-seller-images{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.best-seller-images img{
+    padding-bottom: 8px;
+}
+
+.best-seller-box{
+    position: absolute;
+    top : 220%;
+    left: 2%;
+    right: 2%;
+    width: 96%;
+}
+.sign-up-text{
+    font-size: 22px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+.sign-up-content{
+    height: 150px;
+    padding: 10px 0px 10px 0px;
+}
+
+.sign-up-button button{
+    width: 35%;
+    height: 30px;
+    border: none;
+    border-radius: 9999px;
+    background-color: #FFD814;
+    cursor: pointer;
+}
+
+.sign-up-button button:active{
+    transform: scale(0.97);
+}
+
+.sign-up-button{
+    padding-top: 15px;
+    padding-left: 40%;
+    padding-bottom: 25px;
+}
+
+.sign-up-button hr{
+    width: 100%;
+}
+
+.back-to-top{
+    height: 50px;
+    background-color: #3a4656;
+    color: white;
+    font-size: 0.85rem;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    font-weight: bold;
+}
+
+.back-to-top a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-content1{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    background-color: #232F3E;
+}
+
+.footer-content-box{
+    height: 295px;
+    color: white;
+    width: 18%;
+    margin-top: 3%;
+}
+
+.footer-content-box-header{
+    font-size: 0.95rem;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+.footer-content-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 5px;
+}
+
+.footer-content-div a{
+    font-size: 0.85rem;
+    text-decoration: none;
+    color: white;
+}
+
+.footer-content-div p{
+    padding-left: 15px;
+    padding-top: 15px;
+    font-size: 0.90rem;
+}
+
+.footer-content-div a:hover{
+    text-decoration: underline;
+}
+
+.last-second-footer-content{
+    height: 75px;
+}
+
+
+.footer-content-box2{
+    height: 140px;
+    background-color: #232F3E;
+    color: white;
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.footer-logo img{
+    width: 90px;
+    background-size: contain;
+    cursor: pointer;
+    padding-top: 20px;
+}
+
+.footer-lang{
+    font-size: 0.95rem;
+    width: 130px;
+    height: 35px;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+    margin-left: 100px;
+}
+
+.footer-country{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 35px;
+    border: 1px solid white;
+    margin-left: 10px;
+}
+
+.footer-country-flag img{
+    margin-top: 2px;
+    margin-right: 5px;
+    width: 20px;
+    background-size: cover;
+    cursor: pointer;
+
+}
+
+.footer-country a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer-last-box{
+    height: 100px;
+    background-color: #131A22;
+    color: white;
+    font-size: 0.90rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
